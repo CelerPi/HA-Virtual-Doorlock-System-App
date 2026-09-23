@@ -1,5 +1,11 @@
 # 更新日志
 
+## 0.2.6 - 2026-09-23
+
+- **修复 WebSocket 正常断开时 addon 报 `NameError`**
+  - `api.py` 补充导入 `aiohttp` 模块，确保 `aiohttp.ClientConnectionError` 可以被正确捕获
+  - 避免手机 App、浏览器刷新、切后台或监控切换时日志出现 `NameError: name 'aiohttp' is not defined`
+
 ## 0.2.5 - 2026-06-13
 
 - 统一仓库命名为 `HA-Virtual-Doorlock-System-App`。

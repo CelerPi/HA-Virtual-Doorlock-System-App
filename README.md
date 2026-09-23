@@ -1,6 +1,6 @@
 # 云海湾门禁系统 — Home Assistant App
 
-![version](https://img.shields.io/badge/version-v0.2.5-blue)
+![version](https://img.shields.io/badge/version-v0.2.6-blue)
 ![ha-version](https://img.shields.io/badge/HA-2026.5.0%2B-41BDF5)
 
 麦驰可视对讲门禁系统的 Home Assistant App（原称 Add-on），将实体室内机虚拟化，实现对讲、监控、远程解锁等功能。

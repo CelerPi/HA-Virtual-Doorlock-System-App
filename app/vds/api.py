@@ -7,6 +7,7 @@ import threading
 import time
 from typing import Any
 
+import aiohttp
 from aiohttp import web
 
 from .config import IntercomConfig
